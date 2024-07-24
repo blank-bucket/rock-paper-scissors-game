@@ -22,7 +22,7 @@ if( score === null){
 
 function playGame(playerMove){
 
-  computerMove = pickComputerMove();
+  const computerMove = pickComputerMove();
   let result = '';
 if (playerMove === 'Scissors'){
 
@@ -79,8 +79,7 @@ if (playerMove === 'Scissors'){
   // function that shows player and computer move on page
 function jsMove(){
   document.querySelector('.js-move')
-    .innerHTML = `You 
-    <img src="Paper_files/${playerMove}-emoji.png" alt="Rock">
+    .innerHTML = `You <img src="Paper_files/${playerMove}-emoji.png" alt="Rock">
     
       <img src="Paper_files/${computerMove}-emoji.png" alt="Rock"> 
       Computer`;
