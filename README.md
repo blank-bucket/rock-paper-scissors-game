@@ -12,6 +12,6 @@ A simple Rock, Paper, Scissors game built with vanilla JavaScript and CSS3. Play
 - Web browser
 
 ### Preview 
-- [Click Here](https://simple-rock-paper-scissors-project.netlify.app/)
+- To view Project [Click Here](https://simple-rock-paper-scissors-project.netlify.app/)
 
 
